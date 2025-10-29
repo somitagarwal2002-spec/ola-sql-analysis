@@ -1,0 +1,13 @@
+{
+  "name": "SQL Dev",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "db",
+  "workspaceFolder": "/workspace",
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "extensions": [
+    "ms-azuretools.vscode-docker",
+    "microsoft.vscode-sql"
+  ]
+}
